@@ -1,7 +1,15 @@
+<<<<<<< HEAD
+=======
+/target
+/classes
+/checkouts
+profiles.clj
+>>>>>>> 15ff132 (add gitignore)
 pom.xml
 pom.xml.asc
 *.jar
 *.class
+<<<<<<< HEAD
 /lib/
 /classes/
 /target/
@@ -12,3 +20,10 @@ pom.xml.asc
 .lein-failures
 .nrepl-port
 .cpcache/
+=======
+/.lein-*
+/.nrepl-port
+/.prepl-port
+.hgignore
+.hg/
+>>>>>>> 15ff132 (add gitignore)
