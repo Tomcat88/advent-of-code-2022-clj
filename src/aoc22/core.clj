@@ -7,8 +7,8 @@
 
 (defn read-day-input
   [day & {:keys [delimiter]}]
-  (let [content (read-file day)] 
-    (if (nil? delimiter) 
-      (str/split-lines content) 
+  (let [content (read-file day)]
+    (if (nil? delimiter)
+      (str/split-lines content)
       (str/split content (re-pattern delimiter)))))
 
