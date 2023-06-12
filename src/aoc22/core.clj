@@ -12,3 +12,8 @@
       (str/split-lines content)
       (str/split content (re-pattern delimiter)))))
 
+(defn find-first
+  "Finds the first element which respects the condition f"
+  [f coll] (->> coll (filter f) first))
+(defn to-index-vector [coll] (map-indexed vector coll))
+
