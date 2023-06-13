@@ -1,6 +1,6 @@
 # aoc22
 
-A Clojure implementation of the Advento of Code 2022
+A Clojure implementation of the Advent of Code 2022
 
 ## Usage
 
